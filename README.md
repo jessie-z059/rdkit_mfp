@@ -10,7 +10,7 @@ Majority of functions used were imported from the RDKit library.
 
 Data preprocessing:
 
-sanitize(), function under rdkit.Chem.AllChem, assigns properties (aromaticity, bond orders, and formal charges) based on the molecular structure. and
+- sanitize(), function under rdkit.Chem.AllChem, assigns properties (aromaticity, bond orders, and formal charges) based on the molecular structure. and
 checks for chemical errors or inconsistencies in the molecular representation.
 
 1. Randomly pick a manageable batch of data (700 molecules) from the enormous library for cleaning.
