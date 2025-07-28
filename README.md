@@ -9,6 +9,7 @@ Data downloaded directly from the ChEMBL library https://ftp.ebi.ac.uk/pub/datab
 Majority of functions used were imported from the RDKit library.
 
 Data preprocessing:
+
 sanitize(), function under rdkit.Chem.AllChem, assigns properties (aromaticity, bond orders, and formal charges) based on the molecular structure. and
 checks for chemical errors or inconsistencies in the molecular representation.
 
