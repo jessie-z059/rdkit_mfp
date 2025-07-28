@@ -5,6 +5,7 @@ Preliminary attempt at molecular similarity prediction with a simple VAE
 - The binary representations of molecular properties were learned by the VAE and can be used to test similarity between drug-like molecules.
 
 Data downloaded directly from the ChEMBL library https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/
+
 Majority of functions used were imported from the RDKit library.
 
 Data preprocessing:
