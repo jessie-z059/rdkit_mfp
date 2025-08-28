@@ -16,13 +16,12 @@ checks for chemical errors or inconsistencies in the molecular representation.
 3. Within the filtered and cleaned data, randomly pick a smaller batch (2000 molecules).
 
 Method:
-Training
 -
+Training
 - Molecules represented with "SMILES" were transformed into Morgan fingerprints.
 - The binary representations of molecular properties were learned by the VAE and can be used to test similarity between drug-like molecules.
 Majority of functions used were imported from the RDKit library.
 
 Generation
--
 - After verifying that the pre-existing set of molecules are learned, run the VAE decoder again to generate new molecules
 - Theoretically, the generated molecules holds similar drug-like properties that would belong in the pre-existing set.
