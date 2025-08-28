@@ -1,4 +1,4 @@
-# RDkit_morgan Fingerprint
+# RDKit: Morgan Fingerprint
 Preliminary attempt at molecular similarity prediction with a simple VAE
 -
 - Molecules represented with "SMILES" were transformed into Morgan fingerprints.
