@@ -1,5 +1,5 @@
 # RDKit: Morgan Fingerprint
-Preliminary attempt at molecular similarity prediction with a simple VAE
+Predicting molecular similarity with a simple VAE
 -
 
 Dataset:
